@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import CallIcon from '@mui/icons-material/Call';
 
 
-const socket = io('https://hand-cricket-be.onrender.com')
+const socket = io('https://hand-cricket-backend-88ey.onrender.com')
 function App() {
   const userName = useRef('');
   const joinRoomId = useRef('');
